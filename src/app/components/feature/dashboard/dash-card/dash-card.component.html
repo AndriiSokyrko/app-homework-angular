@@ -1,0 +1,18 @@
+<div class="wrapper--dashboard" [style]="{background: selectedColor[1]}">
+  <p *ngIf="message!==null">{{message}}</p>
+  <h2 class="name">{{dashboard.title}}</h2>
+  <div class="description">{{dashboard.id}}</div>
+  <div class="description">{{dashboard.description}}</div>
+  <div class="date">{{dashboard.date}}</div>
+  <div class="cl--more" (click)="onOpenBoard()">More...<h2 *ngIf="dashboard.archive">ARCHIVE</h2></div>
+  <div class="control" >
+    <div class="rectangles"></div>
+    <div class="rectangles"></div>
+    <div class="rectangles"></div>
+      <div class="wrapper--popup" [style]="{background: selectedColor[0]}">
+        <ul>
+          <li id="edit_id" (click)="onEdit()">edit</li>
+          <li id="delete_id" (click)="onDelete()">remove</li></ul>
+      </div>
+  </div>
+</div>

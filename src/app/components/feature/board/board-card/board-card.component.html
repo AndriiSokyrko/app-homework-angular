@@ -1,0 +1,25 @@
+<div class="wrapper--board"
+     draggable="true"
+     (dragstart)="onDragStart($event)" [style]="{background:selectedColor[2]}"
+>
+  <h2 class="name"><span>{{board.id }} </span> {{board.title}}</h2>
+  <h4 class="description">{{board.description}}</h4>
+  <div class="wrapper--board_next">
+    <div class="date">{{board.date}}</div>
+    <div (click)="shiftToNextColumn()">Next done &#8594;</div>
+  </div>
+  <app-comment [boardId]="board.id" [dashboardId]="dashboardId" [selectedColor]="selectedColor"></app-comment>
+  <div class="control">
+    <div class="rectangles"></div>
+    <div class="rectangles"></div>
+    <div class="rectangles"></div>
+    <div class="wrapper--popup" [style]="{background: selectedColor[1]}" >
+      <ul >
+        <li id="edit_id" (click)="onEdit()">Edit</li>
+        <li id="remove_id" (click)="onDelete()">Remove</li>
+        <li id="archive_id" (click)="onArchive()" *ngIf="archive">Archive</li>
+      </ul>
+    </div>
+
+  </div>
+</div>

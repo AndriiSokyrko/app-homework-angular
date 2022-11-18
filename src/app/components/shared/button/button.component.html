@@ -1,0 +1,7 @@
+<button [ngStyle]="styles"
+        (click)="onClick()"
+        (dragover)="onDragOver($event)"
+        (drop)="onDrop($event)"
+>+
+<ng-content></ng-content>
+</button>

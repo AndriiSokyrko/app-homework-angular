@@ -1,0 +1,18 @@
+<nav class="wrapper--top_block" [style]="{background: selectedColor[1]}">
+  <ul>
+    <li><a [routerLink]="['/dashboard']" routerLinkActive="active">Dashboard</a></li>
+    <li><a routerLinkActive="active" (click)="logout()">Logout</a></li>
+  </ul>
+</nav>
+
+<div class="wrapper--top" [style]="{background:selectedColor[2]}">
+  <div class="logo">{{dashboardName}}</div>
+
+  <div class="wrapper--filter">
+    <input type="text" class="filter" placeholder="filter"  #ref (input)="changeInput(ref.value)" [style]="{background: selectedColor[1]}">
+    <app-select (changeField)="selOption($event)" [selectedColor]="selectedColor[1]"></app-select>
+    <button class="btn_asc" (click)="selASC()" [style]="{background: selectedColor[1]}">ASC</button>
+    <button class="btn_desc" (click)="selDESC()" [style]="{background: selectedColor[1]}">DESC</button>
+  </div>
+
+</div>

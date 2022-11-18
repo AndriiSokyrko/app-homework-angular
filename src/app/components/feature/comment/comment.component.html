@@ -1,0 +1,6 @@
+<div class="wrapper" [style]="{background:selectedColor[2]}">
+ <div *ngIf="!comments.length; ref">
+   <button class="add-commit" (click)="addComment()">Add comment</button>
+ </div>
+<app-comment-card  *ngFor="let comment of comments" [comment]="comment" #ref ></app-comment-card>
+</div>

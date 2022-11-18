@@ -1,0 +1,551 @@
+{
+  "dashboards": [
+    {
+      "id": 1,
+      "title": "json-server1",
+      "description": "typicode",
+      "date": "09.10.2022",
+      "progress": true,
+      "done": false,
+      "archive": false
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "description": "typicode",
+      "date": "04.10.2022",
+      "progress": false,
+      "done": true,
+      "archive": false
+    },
+    {
+      "id": 3,
+      "title": "json-server3",
+      "description": "typicode",
+      "date": "09.10.2022",
+      "progress": false,
+      "done": false,
+      "archive": false
+    },
+    {
+      "id": 4,
+      "title": "json-server4",
+      "description": "typicode",
+      "date": "04.10.2022",
+      "progress": false,
+      "done": false,
+      "archive": false
+    },
+    {
+      "id": 5,
+      "title": "json-server5",
+      "description": "2222222222222",
+      "date": "10.10.2022",
+      "progress": true,
+      "done": false,
+      "archive": false
+    },
+    {
+      "id": 6,
+      "title": "json-server6",
+      "description": "333333",
+      "date": "09.10.2022",
+      "progress": false,
+      "done": false,
+      "archive": false
+    },
+    {
+      "id": 7,
+      "title": "json-server77",
+      "description": "44444",
+      "date": "12.10.2022",
+      "progress": true,
+      "done": false
+    },
+    {
+      "id": 8,
+      "title": "json-server8",
+      "description": "111111111111",
+      "date": "09.10.2022",
+      "progress": false,
+      "done": true,
+      "archive": true
+    },
+    {
+      "id": 9,
+      "title": "json-server99",
+      "description": "Description dasch 12",
+      "date": "12.10.2022",
+      "progress": false,
+      "done": true
+    },
+    {
+      "id": 10,
+      "title": "json-server10",
+      "description": "2222222222222",
+      "date": "15.10.2022",
+      "progress": false,
+      "done": false
+    }
+  ],
+  "boards": [
+    {
+      "id": 4,
+      "title": "Board 1",
+      "description": "some comment",
+      "dashboardId": 1,
+      "date": "11.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      }
+    },
+    {
+      "title": "22222222222",
+      "description": "2222222222222",
+      "dashboardId": 2,
+      "date": "05.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 5,
+      "type": "[Board] edit  board"
+    },
+    {
+      "title": "22222222222",
+      "description": "2222222222222",
+      "dashboardId": 2,
+      "date": "05.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 6,
+      "type": "[Board] edit  board"
+    },
+    {
+      "title": "22222222222",
+      "description": "2222222222222",
+      "dashboardId": 2,
+      "date": "05.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 7,
+      "type": "[Board] edit  board"
+    },
+    {
+      "id": 8,
+      "title": "board 18",
+      "description": "description board18",
+      "dashboardId": 1,
+      "date": "11.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      }
+    },
+    {
+      "id": 9,
+      "title": "Board9",
+      "description": "Description board9",
+      "dashboardId": 1,
+      "date": "11.10.2022",
+      "status": {
+        "todo": true,
+        "progress": false,
+        "done": false
+      }
+    },
+    {
+      "id": 10,
+      "title": "Board10",
+      "description": "description board 10",
+      "dashboardId": 1,
+      "date": "11.10.2022",
+      "status": {
+        "todo": false,
+        "progress": true,
+        "done": false
+      }
+    },
+    {
+      "id": 11,
+      "title": "Boards 11",
+      "description": "Description board 11",
+      "dashboardId": 1,
+      "date": "11.10.2022",
+      "status": {
+        "todo": false,
+        "progress": true,
+        "done": false
+      }
+    },
+    {
+      "id": 17,
+      "title": "Board 17",
+      "description": "Description board 17",
+      "dashboardId": 1,
+      "date": "11.10.2022",
+      "status": {
+        "todo": true,
+        "progress": false,
+        "done": false
+      }
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 5,
+      "date": "05.10.2022",
+      "status": {
+        "todo": true,
+        "progress": false,
+        "done": false
+      },
+      "id": 18
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 2,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 24,
+      "type": "[Board] edit  board"
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 2,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 25,
+      "type": "[Board] edit  board"
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 2,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 26,
+      "type": "[Board] edit  board"
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 5,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": true,
+        "done": false
+      },
+      "id": 27
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 8,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 31
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 8,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 32
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 8,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 33
+    },
+    {
+      "title": "22222222222",
+      "description": "2222222222222",
+      "dashboardId": 8,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 34
+    },
+    {
+      "title": "22222222222",
+      "description": "2222222222222",
+      "dashboardId": 8,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 35
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 5,
+      "date": "06.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 38
+    },
+    {
+      "title": "22222222222",
+      "description": "2222222222222",
+      "dashboardId": 5,
+      "date": "06.10.2022",
+      "status": {
+        "todo": true,
+        "progress": false,
+        "done": false
+      },
+      "id": 39
+    },
+    {
+      "id": 69,
+      "title": "test8",
+      "description": "test8",
+      "dashboardId": 9,
+      "date": "08.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "type": "[Board] edit  board"
+    },
+    {
+      "title": "test8",
+      "description": "test8",
+      "dashboardId": 7,
+      "date": "08.10.2022",
+      "status": {
+        "todo": true,
+        "progress": false,
+        "done": false
+      },
+      "id": 76
+    },
+    {
+      "title": "test7",
+      "description": "test7",
+      "dashboardId": 7,
+      "date": "07.10.2022",
+      "status": {
+        "todo": false,
+        "progress": true,
+        "done": false
+      },
+      "id": 78,
+      "type": "[Board] edit  board"
+    },
+    {
+      "id": 80,
+      "title": "test78",
+      "description": "test7",
+      "dashboardId": 7,
+      "date": "08.10.2022",
+      "status": {
+        "todo": true,
+        "progress": false,
+        "done": false
+      }
+    },
+    {
+      "id": 81,
+      "title": "test8",
+      "description": "Description: test8 deadline for monday 21.10 ",
+      "dashboardId": 9,
+      "date": "08.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "type": "[Board] edit  board"
+    },
+    {
+      "title": "Board 20",
+      "description": "Description bord20",
+      "dashboardId": 9,
+      "date": "11.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 82
+    },
+    {
+      "id": 83,
+      "title": "Board 10",
+      "description": "description board 10",
+      "dashboardId": 9,
+      "date": "15.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      }
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 4,
+      "date": "12.10.2022",
+      "status": {
+        "todo": false,
+        "progress": false,
+        "done": true
+      },
+      "id": 84,
+      "type": "[Board] create  board"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "boardId": 10,
+      "dashboardId": 1,
+      "text": "comments 1 for board1",
+      "userId": 1,
+      "date": "08.10.2022"
+    },
+    {
+      "id": 2,
+      "boardId": 11,
+      "dashboardId": 1,
+      "text": "comments 1 for board1",
+      "userId": 1,
+      "date": "08.10.2022"
+    },
+    {
+      "id": 3,
+      "boardId": 9,
+      "dashboardId": 1,
+      "text": "comments 1 for board1",
+      "userId": 1,
+      "date": "11.10.2022"
+    },
+    {
+      "id": 4,
+      "boardId": 17,
+      "dashboardId": 1,
+      "text": "comments 1 for board1",
+      "userId": 1,
+      "date": "08.10.2022"
+    },
+    {
+      "id": 5,
+      "boardId": 4,
+      "dashboardId": 1,
+      "text": "comments 1 for board1",
+      "userId": 1,
+      "date": "08.10.2022"
+    },
+    {
+      "boardId": 9,
+      "dashboardId": 1,
+      "text": "comments 12 for board1",
+      "userId": 1,
+      "date": "11.10.2022",
+      "id": 7
+    },
+    {
+      "boardId": 82,
+      "dashboardId": 1,
+      "text": "comments 12 for board1",
+      "userId": 1,
+      "date": "11.10.2022",
+      "id": 9
+    },
+    {
+      "boardId": 84,
+      "dashboardId": 4,
+      "text": "comments 12 for board1",
+      "userId": 1,
+      "date": "12.10.2022",
+      "id": 10
+    },
+    {
+      "boardId": 8,
+      "dashboardId": 1,
+      "text": "comments 12 for board1",
+      "userId": 1,
+      "date": "13.10.2022",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "name1",
+      "email": "email@org.ua",
+      "password": "name1"
+    },
+    {
+      "name": "name2",
+      "email": "name2@ukr.net",
+      "password": "name2",
+      "id": 2
+    },
+    {
+      "name": "name3",
+      "email": "name3@ukr.net",
+      "password": "name3",
+      "id": 3
+    },
+    {
+      "name": "Andrii",
+      "email": "andrii1@test.com",
+      "password": "123456",
+      "id": 4
+    }
+  ]
+}

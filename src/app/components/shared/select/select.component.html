@@ -1,0 +1,5 @@
+<select name="dropByDown" id="id_dropByDown"  #ref class="dropByDown" (change) ="setFieldName(ref.value)"
+        [style]="{background: selectedColor}">
+  <option value="disable" disabled selected>Sort By Dropdown</option>
+  <option *ngFor="let item of sortArray" [value]="item.value">{{item.name}}</option>
+</select>

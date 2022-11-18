@@ -1,0 +1,22 @@
+.wrapper-main {
+  width: 100%;
+  min-height: 100vh;
+  .wrapper-dashboards {
+    position: relative;
+    width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+}
+.text--inside{
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-align: center;
+  font-size: 16px;
+}

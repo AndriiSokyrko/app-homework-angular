@@ -1,0 +1,20 @@
+  <app-top-menu (changeFilter)="changeStrFilter($event)"
+                (changeSORT)="changeSortName($event)"
+                (changeField)="changeFieldName($event)"
+  ></app-top-menu>
+  <!--                [selectedColor]="selectedColor"-->
+  <div class="wrapper-main" [style]="{background:selectedColor[2]}">
+      <div class="wrapper-dashboards" [style]="{background:selectedColor[2]}">
+        <app-button [styles]="{'padding':'45px 78px','fontSize':'64px','lineHeight':'77.45px',
+             'background': selectedColor[1],  'border':'none' ,'borderRadius':'23px'}" (updatePage)="updatePage()">
+          <div class="text--inside">Add new</div>
+        </app-button>
+
+        <div *ngFor="let dashboard of (dashboards| async) | filterDashboard:filter | sortDashboard:sortName:fieldName">
+          <app-dash-card [dashboard]="dashboard"  [selectedColor]="selectedColor" ></app-dash-card>
+        </div>
+        <router-outlet></router-outlet>
+      </div>
+
+  </div>
+

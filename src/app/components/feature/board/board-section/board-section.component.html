@@ -1,0 +1,18 @@
+<div class="wrapper--section"  [style]="{background: selectedColor[0]}">
+  <div class="wrapper--border_block_setup">
+      <h1>{{title}}</h1>
+     <app-select-color ></app-select-color>
+  </div>
+
+  <app-button [styles]="{fontSize:'32px', width:'100%', padding:'10px 0',
+      marginBottom:'15px', boxSizing:'border-box'}" [url]="'add-board'" [statusName]="statusName"
+             (archiveChange)="archiveChange($event)"
+    (updatePage)="updatePageFn()">
+  </app-button>
+
+  <div >
+    <app-board-card *ngFor="let board of boards$|async | filterBoard:filter | sortBoard:sortName:fieldName" [archive]="archive"
+                    [board]="board"  (messageArchive)="messageArchive()" >
+    </app-board-card>
+  </div>
+</div>

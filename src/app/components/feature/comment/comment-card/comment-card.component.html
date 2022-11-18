@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <div class="comment">{{comment.text}}</div>
+  <div class="comment">{{comment.date}}</div>
+  <div class="wrapper--btn">
+    <div class="wrapper--btn_edit" (click)="commentEdit()">&#128393;</div>
+    <div class="wrapper--btn_delete" (click)="commentDelete()">&#9986;</div>
+    <div class="wrapper--btn_create" (click)="commentAdd()">+</div>
+  </div>
+</div>

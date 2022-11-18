@@ -1,0 +1,10 @@
+<div  class="select--color" [style]="{background:selectedColor[1]}" >
+  &#9881;&#65039;
+  <select  #ref name="dropByDown" id="id_dropByDown" class="select--color"
+          (change)="changeColor(ref.value)" [style]="{background:selectedColor[1]}">
+    <option value="" disabled selected>Change color</option>
+    <option *ngFor="let item of colorArray" [value]="item" [style]="{background: item[0]}">
+      <span>Change color</span>
+    </option>
+  </select>
+</div>

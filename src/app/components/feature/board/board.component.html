@@ -1,0 +1,28 @@
+<app-top-menu (changeFilter)="changeStrFilter($event)"
+              (changeSORT)="changeSortName($event)"
+              (changeField)="changeFieldName($event)"
+></app-top-menu>
+
+<h1 [style]="{textAlign: 'center'}">{{messageArchived}}</h1>
+<div class="wrapper-main" [style]="{background:selectedColor[2]}">
+  <div class="wrapper--border">
+
+    <div *ngIf="message; else blockCards"><h1>No boards for this dashboards</h1></div>
+    <ng-template #blockCards>
+
+      <app-board-section [title]="'Todo'" [statusName]="'todo'"
+                         [filter]="filter" [sortName]="sortName" [fieldName]="fieldName">
+      </app-board-section>
+      <app-board-section [title]="'In progress'" [statusName]="'progress'"
+                         [filter]="filter" [sortName]="sortName" [fieldName]="fieldName">
+      </app-board-section>
+      <app-board-section [title]="'Done'" [statusName]="'done'"
+                         [filter]="filter" [sortName]="sortName" [fieldName]="fieldName"
+                         (messageArchiveFn)="messageArchive()" [archive]="archive">
+      </app-board-section>
+
+    </ng-template>
+    <router-outlet></router-outlet>
+
+  </div>
+</div>
