@@ -8,7 +8,7 @@ import {catchError, map, Observable, throwError} from "rxjs";
 })
 export class DashboardService {
   // private path: string='http://localhost:3000/dashboards'
-  private path: string='https://app-homwork-angular.herokuapp.com/dashboards'
+  private path: string='https://app-homwork-angular.herokuapp.com/api/dashboards'
 
   constructor(private httpClient: HttpClient) { }
 

@@ -11,8 +11,8 @@ export class BoardService {
 
   // private path: string='http://localhost:3000/boards'
   // private pathInit: string='http://localhost:3000/boards/dashboard'
-  private path: string='https://app-homwork-angular.herokuapp.com/boards'
-  private pathInit: string='https://app-homwork-angular.herokuapp.com/boards/dashboard'
+  private path: string='https://app-homwork-angular.herokuapp.com/api/boards'
+  private pathInit: string='https://app-homwork-angular.herokuapp.com/api/boards/dashboard'
 
   constructor(private httpClient: HttpClient) { }
 
