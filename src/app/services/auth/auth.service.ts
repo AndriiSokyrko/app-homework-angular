@@ -8,8 +8,10 @@ import {catchError, map, throwError} from "rxjs";
   providedIn: 'root'
 })
 export class AuthService {
-  private path= 'http://localhost:3000/users'
-  private pathFindByName= 'http://localhost:3000/users/get-user'
+  // private path= 'http://localhost:3000/users'
+  // private pathFindByName= 'http://localhost:3000/users/get-user'
+  private path= 'https://app-homwork-angular.herokuapp.com/users/'
+  private pathFindByName= 'https://app-homwork-angular.herokuapp.com/users/get-user'
   constructor(private httpClient: HttpClient) { }
 
   public getUsers():Observable<UserModel[]>{

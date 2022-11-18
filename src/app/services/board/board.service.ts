@@ -9,8 +9,10 @@ import {catchError, map, Observable, throwError} from "rxjs";
 export class BoardService {
 
 
-  private path: string='http://localhost:3000/boards'
-  private pathInit: string='http://localhost:3000/boards/dashboard'
+  // private path: string='http://localhost:3000/boards'
+  // private pathInit: string='http://localhost:3000/boards/dashboard'
+  private path: string='https://app-homwork-angular.herokuapp.com/boards'
+  private pathInit: string='https://app-homwork-angular.herokuapp.com/boards/dashboard'
 
   constructor(private httpClient: HttpClient) { }
 

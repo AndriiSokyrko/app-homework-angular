@@ -1,5 +1,0 @@
-{
-  "/boards/dashboard/:id": "/boards?dashboardId=:id",
-  "/users/get-user/:name": "/users?name=:name",
-  "/comments/board/:id": "/comments?boardId=:id"
-}

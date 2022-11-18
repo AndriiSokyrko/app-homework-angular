@@ -9,8 +9,10 @@ import {catchError, map, Observable, throwError} from "rxjs";
 export class CommentService {
 
 
-  private path: string='http://localhost:3000/comments'
-  private pathInit: string='http://localhost:3000/comments/board'
+  // private path: string='http://localhost:3000/comments'
+  // private pathInit: string='http://localhost:3000/comments/board'
+  private path: string='https://app-homwork-angular.herokuapp.com/comments'
+  private pathInit: string='https://app-homwork-angular.herokuapp.com/comments/board'
 
   constructor(private httpClient: HttpClient) { }
 
