@@ -9,7 +9,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "server": "json-server --watch ./Json-server/db.json --routes ./Json-server/routes.json",
-    "dev": "concurrently --kill-others  \"npm run start\"  \"npm run server\""
+    "dev": "concurrently --kill-others  \"npm run start\"  \"npm run server\"",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -23,7 +24,9 @@
     "@angular/router": "^14.2.0",
     "@ngrx/store": "^14.3.1",
     "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
     "json-server": "^0.17.1",
+    "path": "^0.12.7",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -44,5 +47,9 @@
   },
   "browser": {
     "crypto": false
+  },
+  "engines": {
+    "node": "18.10.0",
+    "npm": "8.19.2"
   }
 }
