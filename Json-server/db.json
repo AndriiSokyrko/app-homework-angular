@@ -665,18 +665,6 @@
       "email": "name1@ukr.net",
       "password": "$2a$10$.yiPl2S6C1BY7sMArkqHY.IcqInFrz.D4ac3U8twDvsFgKAREjM7C",
       "id": 1
-    },
-    {
-      "name": "name12",
-      "email": "name3@ukr.net",
-      "password": "$2a$10$HH7qFzTs9D9eZP5gOpbyROqPwJMXcKBKsHl2ys.2iMLJ7pZivPG0e",
-      "id": 2
-    },
-    {
-      "name": "name122",
-      "email": "name2@ukr.net",
-      "password": "$2a$10$RzLgcF.ENPav6Pr0WogcweP8FbOfFozblEqDLx6t.GrQVyEx0KfA6",
-      "id": 3
     }
   ]
 }
