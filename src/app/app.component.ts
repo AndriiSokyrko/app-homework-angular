@@ -44,12 +44,7 @@ export class AppComponent {
       this.store.select(getColor).subscribe(color=>{
         this.selectedColor = color
       })
-//mock dates
-//     this.store.dispatch(initUsers({users:users}))
-//     this.store.dispatch(initDashboard({dashboards:dashboards}))
-//     this.store.dispatch(initBoard({boards:boards}))
-//     this.store.dispatch(initComment({comments:comments}))
-//
+
     this.dashboardService.initDashboard().subscribe(item => {
         this.store.dispatch(initDashboard({dashboards: item}))
       })
