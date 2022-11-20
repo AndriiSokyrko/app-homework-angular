@@ -3,7 +3,7 @@ const {PORT} = require("./src/app/env");
 const server = jsonServer.create();
 const router = jsonServer.router('./Json-server/db.json');
 const middlewares = jsonServer.defaults({
-  static: './build'
+  static: './dist/hw-angular'
 });
 const PORT = PORT || 8000;
 server.use(middlewares);
