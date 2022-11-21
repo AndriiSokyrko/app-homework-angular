@@ -82,7 +82,7 @@
       "title": "json9",
       "description": "descr 9",
       "date": "28.10.2022",
-      "progress": false,
+      "progress": true,
       "done": true,
       "archive": false
     },
@@ -530,6 +530,18 @@
         "done": false
       },
       "id": 45
+    },
+    {
+      "title": "11111111111",
+      "description": "111111111111",
+      "dashboardId": 13,
+      "date": "21.11.2022",
+      "status": {
+        "todo": false,
+        "progress": true,
+        "done": false
+      },
+      "id": 46
     }
   ],
   "comments": [
@@ -692,6 +704,22 @@
       "text": "wewew2222",
       "userId": 1,
       "date": "20.11.2022"
+    },
+    {
+      "boardId": 46,
+      "dashboardId": 13,
+      "text": "comments 12 for board1",
+      "userId": 1,
+      "date": "21.11.2022",
+      "id": 25
+    },
+    {
+      "boardId": 46,
+      "dashboardId": 13,
+      "text": "comments 11 for board1",
+      "userId": 1,
+      "date": "21.11.2022",
+      "id": 26
     }
   ],
   "users": [
