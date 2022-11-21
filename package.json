@@ -9,6 +9,7 @@
     "test": "ng test",
     "server": "json-server --watch ./Json-server/db.json --routes ./Json-server/routes.json",
     "dev": "concurrently --kill-others  \"npm run start\"  \"npm run server\"",
+    "postinstall": "npm run build",
     "heroku-postbuild": "ng build"
   },
   "private": true,
