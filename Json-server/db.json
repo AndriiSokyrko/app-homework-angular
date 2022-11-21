@@ -720,6 +720,22 @@
       "userId": 1,
       "date": "21.11.2022",
       "id": 26
+    },
+    {
+      "boardId": 1,
+      "dashboardId": 1,
+      "text": "comments 12 for board1",
+      "userId": 1,
+      "date": "21.11.2022",
+      "id": 27
+    },
+    {
+      "boardId": 44,
+      "dashboardId": 1,
+      "text": "comments 12 for board1",
+      "userId": 1,
+      "date": "21.11.2022",
+      "id": 28
     }
   ],
   "users": [

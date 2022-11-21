@@ -6,6 +6,10 @@ const middlewares = jsonServer.defaults({ static: "./dist" });
 const port = 3000;
 
 server.use(middlewares);
+server.use(jsonServer.rewriter({
+  '/api/*': '/$1',
+}))
 server.use(router);
-
-server.listen(port);
+server.listen(port, () => {
+  console.log('Server is running');
+});
