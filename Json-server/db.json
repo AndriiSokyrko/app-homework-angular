@@ -88,13 +88,12 @@
     },
     {
       "id": 14,
-      "title": "dash9",
-      "description": "desr9",
+      "title": "dash10",
+      "description": "desr10",
       "date": "08.11.2022",
       "progress": false,
       "done": true,
-      "archive": false,
-      "type": "[Dashboard] edit dashboard"
+      "archive": false
     }
   ],
   "boards": [
@@ -677,6 +676,22 @@
       "userId": 1,
       "date": "20.11.2022",
       "id": 22
+    },
+    {
+      "boardId": 4,
+      "dashboardId": 2,
+      "text": "qqqqqqqq",
+      "userId": 1,
+      "date": "20.11.2022",
+      "id": 23
+    },
+    {
+      "id": 24,
+      "boardId": 5,
+      "dashboardId": 2,
+      "text": "wewew2222",
+      "userId": 1,
+      "date": "20.11.2022"
     }
   ],
   "users": [
