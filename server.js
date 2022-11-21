@@ -3,7 +3,7 @@ const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("./Json-server/db.json");
 const middlewares = jsonServer.defaults({ static: "./dist" });
-const port = 8080;
+const port = 8080 || 8080 || 3000;
 
 server.use(middlewares);
 server.use(jsonServer.rewriter({
